@@ -1,0 +1,78 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.formatOnPaste": true,
+  "editor.fontFamily": "'Operator Mono', Menlo, Monaco, 'Courier New', monospace",
+  "editor.minimap.enabled": false,
+  "editor.fontSize": 13,
+  "editor.fontLigatures": true,
+  "editor.formatOnSave": true,
+  "editor.accessibilitySupport": "off",
+  "eslint.options": {
+    "configFile": ".eslintrc.json"
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "cssModules.camelCase": true,
+  "files.associations": {
+    "*.js": "javascriptreact",
+    "*.html": "django-html"
+  },
+  "files.trimTrailingWhitespace": true,
+  "files.exclude": {
+    ".venv": true
+  },
+  "python.linting.flake8Enabled": true,
+  "python.linting.flake8Args": [
+    "--config=setup.cfg"
+  ],
+  "python.linting.pylintEnabled": true,
+  "python.formatting.provider": "black",
+  "python.sortImports.args": [
+    "-rc"
+  ],
+  "[python]": {
+    "editor.formatOnPaste": false
+  },
+  "terminal.integrated.fontFamily": "'ShureTechMono Nerd Font', 'Operator Mono'",
+  "terminal.integrated.fontSize": 14,
+  "workbench.colorCustomizations": {
+    "terminal.background": "#3B3228",
+    "terminal.foreground": "#D0C8C6",
+    "terminalCursor.background": "#D0C8C6",
+    "terminalCursor.foreground": "#D0C8C6",
+    "terminal.ansiBlack": "#3B3228",
+    "terminal.ansiBlue": "#8AB3B5",
+    "terminal.ansiBrightBlack": "#7E705A",
+    "terminal.ansiBrightBlue": "#8AB3B5",
+    "terminal.ansiBrightCyan": "#7BBDA4",
+    "terminal.ansiBrightGreen": "#BEB55B",
+    "terminal.ansiBrightMagenta": "#A89BB9",
+    "terminal.ansiBrightRed": "#CB6077",
+    "terminal.ansiBrightWhite": "#F5EEEB",
+    "terminal.ansiBrightYellow": "#F4BC87",
+    "terminal.ansiCyan": "#7BBDA4",
+    "terminal.ansiGreen": "#BEB55B",
+    "terminal.ansiMagenta": "#A89BB9",
+    "terminal.ansiRed": "#CB6077",
+    "terminal.ansiWhite": "#D0C8C6",
+    "terminal.ansiYellow": "#F4BC87"
+  },
+  "window.zoomLevel": 0,
+  "workbench.statusBar.feedback.visible": false,
+  "workbench.colorTheme": "Noctis Lux",
+  "workbench.sideBar.location": "left",
+  "window.newWindowDimensions": "inherit",
+  "explorer.confirmDragAndDrop": false,
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "editor.codeActionsOnSaveTimeout": 1500,
+  "editor.formatOnSaveTimeout": 7500,
+  "vsicons.dontShowNewVersionMessage": true
+}
